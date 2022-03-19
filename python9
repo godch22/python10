@@ -1,0 +1,209 @@
+# B
+# (1)
+# print("1plus1 = 귀요미")
+# print("1+1 =",b)
+# (2)
+# a = float(input())
+# b = float(input())
+# print(a*b)
+# (3)
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# q = a+b+c
+# v = a+b+c/3
+# print(q)
+# print(v)
+# (4)
+# a = input()
+# b = input()
+# c = int(input())
+# print(b*c,a)
+# (5)
+# l = [1,2]
+# a = int(input())
+# l.append(a)
+# print(l[2])
+# print(l[1])
+# print(l[0])
+# (6)
+# a = float(input())
+# if a <= 50.80:
+#     print("Flyweight")
+# elif a <= 61.23:
+#     print("Lightweight")
+# elif a <= 72.57:
+#     print("Middleweight")
+# elif a <= 88.45:
+#     print("Cruiserweight")
+# else:
+#     print("Heavywight")
+# (7)
+# l = []
+# odd = 0
+# even = 0
+# while True:
+#     a = int(input())
+#     if a == 0:
+#         break
+#     l.append(a)
+# print(l)
+# for i in l:
+#     if i % 2 == 0:
+#         even += 1
+#     else:
+#         odd += 1
+# print('odd : %d'%(odd))
+# print('even : %d'%(even))
+# (8)
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+# e = a+b+c+d
+# f = e/4
+# print("avg:", f)
+# if f >= 80:
+#     print("pass")
+# elif f < 80:
+#     print("fail")
+# (9)
+# def circle(x):
+#     return x*x*3.14
+#
+# r = int(input())
+# print("%.2f"%circle(r))
+# A
+# (1)
+# print("5 Dan")
+# print("5 * 2 =", 10)
+# (2)
+# a = int(input())
+# b = int(input())
+# print(a * b)
+# print(a / b)
+# (3)
+# yard = float(input())
+# print("%d yard = %.3f"%(yard, yard*100*0.9144))
+# (4)
+# a = input()
+# b = input()
+# print(a + " and " + b)
+# print(a+"&"+b)
+# (5)
+# 노가다 아닌거
+#
+# l = [1,2,3,4,5,6,7,8,9,1 0,11,12,13,14,15]
+# ll = []
+# a = int(input())
+# for i in l:
+#     if i % a == 0:
+#         ll.append(i)
+# print(ll)\
+#
+# (6)
+# a = "dog"
+# b = "cat"
+# c = "chick"
+# d = int(input())
+# if d == 1:
+#     print(a)
+# elif d == 2:
+#     print(b)
+# elif d == 3:
+#     print(c)
+# else:
+#     print("I don't know.")
+
+#(7)
+# l = []
+# sum = 0
+# avg = 0
+# while True:
+#     a = int(input())
+#     l.append(a)
+#     if a >= 100:
+#         break
+# for i in l:
+#     sum += i
+# avg = sum/(len(l))
+# print(sum)
+# print("%.1f"%(avg))
+# (8)
+# l = []
+# b = 0
+# c = 0
+# for i in range(10):
+#     a = int(input())
+#     l.append(a)
+# for j in l:
+#     if h % 3 == 0:
+#         b += 1
+# for k in l:
+#     if k %5 == 0:
+#         c += 1
+# print("Multiples of 3 : %d"%(b))
+# print("Multiples of 5 : %d"%(c))
+# (9)
+# a = float(input())
+# b = float(input())
+# aa = a**(1/2)
+# bb = b**(1/2)
+# print(aa)
+# print(bb)
+# c = abs(aa-bb)
+# if (c%int(c)) >=0.5:
+#     print(int(c)+1)
+# elif (c%int(c)) == 0:
+#     print(int(c)-1)
+# else:
+#     print(int(c))
+
+# 최대공약수
+# a = int(input())
+# b = int(input())
+# if a > b:
+#     min = b
+# else:
+#     min = a
+# for i in range(min+1, 2, -1):
+#     if a % i == 0 and b % i == 0:
+#         print(i)
+#         break
+# 최대공약수를 함수로 바꾼 ver
+# def chde(x,y):
+#     if x < y:
+#         min = x
+#     else:
+#         min = y
+#     for i in range(min+1, 1, -1):
+#         if x % i == 0 and y % i ==0:
+#             anw = i
+#             break
+#     return anw
+# 최소공배수
+# x = int(input())
+# y = int(input())
+# if x > y:
+#     max = x
+# else:
+#     max = y
+# for i in range(max, (x*y)+1):
+#     if i % x == 0 and i % y == 0:
+#         anw = i
+#         break
+# 최소공배수를 함수로 바꾼 ver
+# def choi(x, y):
+#     if x > y:
+#         max = x
+#     else:
+#         max = y
+#     for i in range(max, (x*y)+1):
+#         if i % x == 0 and i % y == 0:
+#             anw = i
+#             break
+#     return anw
+# 
+# a = int(input())
+# b = int(input())
+# print(choi(a,b))
